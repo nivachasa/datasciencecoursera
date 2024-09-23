@@ -18,11 +18,16 @@ The data for this project can be found at the following link: Human Activity Rec
 The dataset is located in the UCI HAR Dataset folder and is divided into two folders: train and test. Each folder contains the following files:
 
 X_train.txt / X_test.txt: The feature vectors.
+
 y_train.txt / y_test.txt: The activity labels.
+
 subject_train.txt / subject_test.txt: The subject identifiers.
+
+
 Additionally, the dataset includes the following files:
 
 features.txt: The list of all features.
+
 activity_labels.txt: The list of activity labels.
 
 ### Dependencies
@@ -34,7 +39,10 @@ install.packages("dplyr")
 
 ### Instructions
 Download and unzip the dataset into your working directory.
+
 Modify the paths in the script to point to the location of the files.
+
 Run the script run_analysis.R
+
 The script will generate a file named tidy_data_set.txt containing the tidy data set with the average of each variable for each activity and each subject.
 
